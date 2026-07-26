@@ -1,0 +1,34 @@
+# FastLane Labs
+
+> FastLane Labs is a blockchain infrastructure provider building maximal extractable value (MEV) and liquid staking products on the Monad blockchain. It operates a public, on-chain MEV auction that a majority of Monad validators route blocks through, and maintains Atlas, an open-source execution-abstraction framework. Developer surfaces are JSON-RPC APIs and Solidity smart contracts rather than a REST/OpenAPI catalog.
+
+## Products
+- [shMON — liquid staking token](https://shmonad.xyz): Earns staking rewards plus revenue from FastLane's MEV protocol.
+- [Smart Vault — USDC yield](https://www.ligomez.com/): USDC-denominated staking-yield exposure without holding MON.
+- [hMON — yield donation](https://shmonad.xyz/degen): Yield-donation product.
+
+## Developer Docs
+- [shMonad Documentation](https://docs.shmonad.xyz): Root developer portal and getting started.
+- [Stakers guide](https://docs.shmonad.xyz/liquid-staking/): Liquid staking with shMON.
+- [Validators overview](https://docs.shmonad.xyz/validators/overview): Validator onboarding and MEV/priority-fee integration (Leader API for block availability).
+- [Searchers / MEV auction handler](https://docs.shmonad.xyz/searchers/mev-auction-handler): Searcher integration with the FastLane Sidecar and on-chain auction handler.
+
+## Source Code
+- [GitHub organization](https://github.com/FastLane-Labs): All open-source repositories.
+- [Atlas](https://github.com/FastLane-Labs/atlas): Execution-abstraction framework (Solidity).
+- [atlas-sdk-go](https://github.com/FastLane-Labs/atlas-sdk-go): Go SDK for Atlas.
+- [fastlane-contracts](https://github.com/FastLane-Labs/fastlane-contracts): FastLane smart contracts for Monad.
+- [fastlane-sidecar](https://github.com/FastLane-Labs/fastlane-sidecar): MEV auction sidecar (Go).
+- [fastlane-json-rpc](https://github.com/FastLane-Labs/fastlane-json-rpc): JSON-RPC API tooling (Go).
+
+## Analytics
+- [shMonad Analytics](https://analytics.shmonad.xyz/)
+- [MEV Pulse](https://mev-pulse.fastlane.xyz/)
+
+## Community
+- [Discord](https://discord.fastlane.xyz)
+- [X / Twitter](https://x.com/0xFastLane)
+
+## Legal
+- [Terms of Service](https://fastlane.xyz/legal/terms-of-service)
+- [Privacy Policy](https://fastlane.xyz/legal/privacy-policy)

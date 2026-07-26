@@ -1,0 +1,25 @@
+generated: '2026-07-19'
+method: searched
+source: https://github.com/FastLane-Labs + https://pkg.go.dev/github.com/FastLane-Labs/atlas-sdk-go
+packages:
+- language: go
+  registry: pkg.go.dev
+  name: github.com/FastLane-Labs/atlas-sdk-go
+  url: https://pkg.go.dev/github.com/FastLane-Labs/atlas-sdk-go
+  install: go get github.com/FastLane-Labs/atlas-sdk-go
+  official: true
+  description: Go SDK for the Atlas execution-abstraction framework (contract bindings, core, types, config).
+- language: go
+  registry: pkg.go.dev
+  name: github.com/FastLane-Labs/blockchain-rpc-go
+  url: https://pkg.go.dev/github.com/FastLane-Labs/blockchain-rpc-go
+  install: go get github.com/FastLane-Labs/blockchain-rpc-go
+  official: true
+  description: First-party Go library for blockchain JSON-RPC access used across FastLane services.
+- language: go
+  registry: github
+  name: github.com/FastLane-Labs/fastlane-json-rpc
+  url: https://github.com/FastLane-Labs/fastlane-json-rpc
+  install: go get github.com/FastLane-Labs/fastlane-json-rpc
+  official: true
+  description: Upstream Go tooling for creating FastLane JSON-RPC APIs.
