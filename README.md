@@ -64,6 +64,86 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-FastLane is a company surfaced as a portfolio company of multicoin-capital and added to the API Evangelist network as a stub for enrichment. Sector: crypto-web3. This profile is a lead awaiting the enrichment pipeline.
+FastLane Labs is a blockchain infrastructure provider building maximal extractable value (MEV) and liquid staking products on the Monad blockchain. Its core products are shMON, a liquid staking token that pairs staking rewards with revenue from FastLane's on-chain MEV auction and holds the majority of Monad's liquid-staking TVL; Smart Vault, a USDC-denominated yield product; and hMON, a yield-donation token. FastLane operates a public, on-chain MEV auction that a majority of Monad validators route blocks through, exposing developer surfaces for searchers (the FastLane Sidecar and auction-handler contracts), validators (a Leader API and validator onboarding), and stakers. It also maintains Atlas, an open-source execution-abstraction framework, with a Go SDK and JSON-RPC tooling published on GitHub. Developer integration is via JSON-RPC APIs and Solidity smart contracts rather than a REST/OpenAPI catalog.
 
-Backed by: multicoin-capital — https://fastlane.xyz
+**Areas:** Company · Web3 · Blockchain · MEV · Liquid Staking · DeFi · Monad · Staking · JSON-RPC · Cryptocurrency
+
+## FastLane on APIs.io
+
+Everything profiled for FastLane is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/fastlane/](https://apis.io/providers/fastlane/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Fastlane Domain Security](https://apis.io/security/fastlane/fastlane-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://fastlane.xyz)
+- [Documentation](https://docs.shmonad.xyz)
+- [Getting started](https://docs.shmonad.xyz)
+- [Support](https://discord.fastlane.xyz)
+- [Blog](https://fastlane.xyz/blog)
+- [Terms of service](https://fastlane.xyz/legal/terms-of-service)
+- [Privacy policy](https://fastlane.xyz/legal/privacy-policy)
+- [GitHub](https://github.com/FastLane-Labs)
+
+## API Evangelist rating
+
+**Kin Score 18.0** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 2.6 |
+| Developer ergonomics | 40.5 |
+| Access clarity | 21.1 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 13.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/fastlane/](https://apis.io/providers/fastlane/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for FastLane: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/fastlane/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
